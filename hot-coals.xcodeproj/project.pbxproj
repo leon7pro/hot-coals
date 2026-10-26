@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F43DFF3C308875F200ED073A /* BudgetModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43DFF3B308875ED00ED073A /* BudgetModels.swift */; };
+		F43DFF3E3088779900ED073A /* FringeSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43DFF3D3088778B00ED073A /* FringeSummaryView.swift */; };
+		F43DFF40308AC50400ED073A /* BudgetFringeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43DFF3F308AC50100ED073A /* BudgetFringeCalculator.swift */; };
+		F43DFF42308C191000ED073A /* MovieProjectDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43DFF41308C190C00ED073A /* MovieProjectDocument.swift */; };
+		F43DFF44308C19A400ED073A /* WelcomeWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43DFF43308C19A000ED073A /* WelcomeWindowView.swift */; };
+		F43DFF48308D152F00ED073A /* MetricCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43DFF47308D152900ED073A /* MetricCard.swift */; };
+		F43DFF4A308D180F00ED073A /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43DFF49308D180A00ED073A /* SidebarView.swift */; };
+		F43DFF4C308D187800ED073A /* MainSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43DFF4B308D187400ED073A /* MainSplitView.swift */; };
+		F452F0A2306FFB5200031E09 /* ProjectManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F452F0A1306FFB5200031E09 /* ProjectManagerView.swift */; };
+		F452F0A4306FFB9D00031E09 /* ProjectDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F452F0A3306FFB9D00031E09 /* ProjectDashboardView.swift */; };
+		F452F0A63070038E00031E09 /* UnifiedProjectDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F452F0A53070038E00031E09 /* UnifiedProjectDashboardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F46E7D6A306E044B0071E78D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F46E7D54306E04490071E78D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F46E7D5B306E04490071E78D;
+			remoteInfo = "hot-coals";
+		};
+		F46E7D74306E044B0071E78D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F46E7D54306E04490071E78D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F46E7D5B306E04490071E78D;
+			remoteInfo = "hot-coals";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F43DFF3B308875ED00ED073A /* BudgetModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetModels.swift; sourceTree = "<group>"; };
+		F43DFF3D3088778B00ED073A /* FringeSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FringeSummaryView.swift; sourceTree = "<group>"; };
+		F43DFF3F308AC50100ED073A /* BudgetFringeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetFringeCalculator.swift; sourceTree = "<group>"; };
+		F43DFF41308C190C00ED073A /* MovieProjectDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieProjectDocument.swift; sourceTree = "<group>"; };
+		F43DFF43308C19A000ED073A /* WelcomeWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeWindowView.swift; sourceTree = "<group>"; };
+		F43DFF47308D152900ED073A /* MetricCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricCard.swift; sourceTree = "<group>"; };
+		F43DFF49308D180A00ED073A /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		F43DFF4B308D187400ED073A /* MainSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSplitView.swift; sourceTree = "<group>"; };
+		F452F0A1306FFB5200031E09 /* ProjectManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectManagerView.swift; sourceTree = "<group>"; };
+		F452F0A3306FFB9D00031E09 /* ProjectDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDashboardView.swift; sourceTree = "<group>"; };
+		F452F0A53070038E00031E09 /* UnifiedProjectDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifiedProjectDashboardView.swift; sourceTree = "<group>"; };
+		F46E7D5C306E04490071E78D /* hot-coals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hot-coals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46E7D69306E044B0071E78D /* hot-coalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hot-coalsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46E7D73306E044B0071E78D /* hot-coalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hot-coalsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F43DFF46308C287300ED073A /* Exceptions for "hot-coals" folder in "hot-coals" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F46E7D5B306E04490071E78D /* hot-coals */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F43DFF3730870EB600ED073A /* Parsers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		F46E7D5E306E04490071E78D /* hot-coals */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F43DFF46308C287300ED073A /* Exceptions for "hot-coals" folder in "hot-coals" target */,
+			);
+			path = "hot-coals";
+			sourceTree = "<group>";
+		};
+		F46E7D6C306E044B0071E78D /* hot-coalsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "hot-coalsTests";
+			sourceTree = "<group>";
+		};
+		F46E7D76306E044B0071E78D /* hot-coalsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "hot-coalsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F46E7D59306E04490071E78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		F46E7D66306E044B0071E78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		F46E7D70306E044B0071E78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F452F09D306FF79B00031E09 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F43DFF41308C190C00ED073A /* MovieProjectDocument.swift */,
+				F43DFF3F308AC50100ED073A /* BudgetFringeCalculator.swift */,
+				F43DFF3B308875ED00ED073A /* BudgetModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F452F09E306FF87B00031E09 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F43DFF4B308D187400ED073A /* MainSplitView.swift */,
+				F43DFF49308D180A00ED073A /* SidebarView.swift */,
+				F43DFF47308D152900ED073A /* MetricCard.swift */,
+				F43DFF43308C19A000ED073A /* WelcomeWindowView.swift */,
+				F43DFF3D3088778B00ED073A /* FringeSummaryView.swift */,
+				F452F0A1306FFB5200031E09 /* ProjectManagerView.swift */,
+				F452F0A3306FFB9D00031E09 /* ProjectDashboardView.swift */,
+				F452F0A53070038E00031E09 /* UnifiedProjectDashboardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F46E7D53306E04490071E78D = {
+			isa = PBXGroup;
+			children = (
+				F452F09E306FF87B00031E09 /* Views */,
+				F452F09D306FF79B00031E09 /* Models */,
+				F43DFF3730870EB600ED073A /* Parsers */,
+				F46E7D5E306E04490071E78D /* hot-coals */,
+				F46E7D6C306E044B0071E78D /* hot-coalsTests */,
+				F46E7D76306E044B0071E78D /* hot-coalsUITests */,
+				F46E7D5D306E04490071E78D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F46E7D5D306E04490071E78D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F46E7D5C306E04490071E78D /* hot-coals.app */,
+				F46E7D69306E044B0071E78D /* hot-coalsTests.xctest */,
+				F46E7D73306E044B0071E78D /* hot-coalsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F46E7D5B306E04490071E78D /* hot-coals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46E7D7B306E044B0071E78D /* Build configuration list for PBXNativeTarget "hot-coals" */;
+			buildPhases = (
+				F46E7D58306E04490071E78D /* Sources */,
+				F46E7D59306E04490071E78D /* Frameworks */,
+				F46E7D5A306E04490071E78D /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				F43DFF3730870EB600ED073A /* Parsers */,
+				F46E7D5E306E04490071E78D /* hot-coals */,
+			);
+			name = "hot-coals";
+			productName = "hot-coals";
+			productReference = F46E7D5C306E04490071E78D /* hot-coals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F46E7D68306E044B0071E78D /* hot-coalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46E7D7E306E044B0071E78D /* Build configuration list for PBXNativeTarget "hot-coalsTests" */;
+			buildPhases = (
+				F46E7D65306E044B0071E78D /* Sources */,
+				F46E7D66306E044B0071E78D /* Frameworks */,
+				F46E7D67306E044B0071E78D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F46E7D6B306E044B0071E78D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F46E7D6C306E044B0071E78D /* hot-coalsTests */,
+			);
+			name = "hot-coalsTests";
+			productName = "hot-coalsTests";
+			productReference = F46E7D69306E044B0071E78D /* hot-coalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F46E7D72306E044B0071E78D /* hot-coalsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46E7D81306E044B0071E78D /* Build configuration list for PBXNativeTarget "hot-coalsUITests" */;
+			buildPhases = (
+				F46E7D6F306E044B0071E78D /* Sources */,
+				F46E7D70306E044B0071E78D /* Frameworks */,
+				F46E7D71306E044B0071E78D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F46E7D75306E044B0071E78D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F46E7D76306E044B0071E78D /* hot-coalsUITests */,
+			);
+			name = "hot-coalsUITests";
+			productName = "hot-coalsUITests";
+			productReference = F46E7D73306E044B0071E78D /* hot-coalsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F46E7D54306E04490071E78D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					F46E7D5B306E04490071E78D = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					F46E7D68306E044B0071E78D = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = F46E7D5B306E04490071E78D;
+					};
+					F46E7D72306E044B0071E78D = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = F46E7D5B306E04490071E78D;
+					};
+				};
+			};
+			buildConfigurationList = F46E7D57306E04490071E78D /* Build configuration list for PBXProject "hot-coals" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F46E7D53306E04490071E78D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F46E7D5D306E04490071E78D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F46E7D5B306E04490071E78D /* hot-coals */,
+				F46E7D68306E044B0071E78D /* hot-coalsTests */,
+				F46E7D72306E044B0071E78D /* hot-coalsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F46E7D5A306E04490071E78D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		F46E7D67306E044B0071E78D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		F46E7D71306E044B0071E78D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F46E7D58306E04490071E78D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				F43DFF48308D152F00ED073A /* MetricCard.swift in Sources */,
+				F452F0A2306FFB5200031E09 /* ProjectManagerView.swift in Sources */,
+				F43DFF44308C19A400ED073A /* WelcomeWindowView.swift in Sources */,
+				F452F0A4306FFB9D00031E09 /* ProjectDashboardView.swift in Sources */,
+				F452F0A63070038E00031E09 /* UnifiedProjectDashboardView.swift in Sources */,
+				F43DFF3C308875F200ED073A /* BudgetModels.swift in Sources */,
+				F43DFF4A308D180F00ED073A /* SidebarView.swift in Sources */,
+				F43DFF3E3088779900ED073A /* FringeSummaryView.swift in Sources */,
+				F43DFF40308AC50400ED073A /* BudgetFringeCalculator.swift in Sources */,
+				F43DFF42308C191000ED073A /* MovieProjectDocument.swift in Sources */,
+				F43DFF4C308D187800ED073A /* MainSplitView.swift in Sources */,
+			);
+		};
+		F46E7D65306E044B0071E78D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		F46E7D6F306E044B0071E78D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F46E7D6B306E044B0071E78D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F46E7D5B306E04490071E78D /* hot-coals */;
+			targetProxy = F46E7D6A306E044B0071E78D /* PBXContainerItemProxy */;
+		};
+		F46E7D75306E044B0071E78D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F46E7D5B306E04490071E78D /* hot-coals */;
+			targetProxy = F46E7D74306E044B0071E78D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F46E7D79306E044B0071E78D /* Debug configuration for PBXProject "hot-coals" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Q527SR3FP2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F46E7D7A306E044B0071E78D /* Release configuration for PBXProject "hot-coals" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Q527SR3FP2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F46E7D7C306E044B0071E78D /* Debug configuration for PBXNativeTarget "hot-coals" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q527SR3FP2;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hot-coals/Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DF.hot-coals";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		F46E7D7D306E044B0071E78D /* Release configuration for PBXNativeTarget "hot-coals" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q527SR3FP2;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hot-coals/Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DF.hot-coals";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+		F46E7D7F306E044B0071E78D /* Debug configuration for PBXNativeTarget "hot-coalsTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q527SR3FP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DF.hot-coalsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hot-coals.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hot-coals";
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		F46E7D80306E044B0071E78D /* Release configuration for PBXNativeTarget "hot-coalsTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q527SR3FP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DF.hot-coalsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hot-coals.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hot-coals";
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+		F46E7D82306E044B0071E78D /* Debug configuration for PBXNativeTarget "hot-coalsUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q527SR3FP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DF.hot-coalsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "hot-coals";
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		F46E7D83306E044B0071E78D /* Release configuration for PBXNativeTarget "hot-coalsUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q527SR3FP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DF.hot-coalsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = "hot-coals";
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F46E7D57306E04490071E78D /* Build configuration list for PBXProject "hot-coals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46E7D79306E044B0071E78D /* Debug configuration for PBXProject "hot-coals" */,
+				F46E7D7A306E044B0071E78D /* Release configuration for PBXProject "hot-coals" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		F46E7D7B306E044B0071E78D /* Build configuration list for PBXNativeTarget "hot-coals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46E7D7C306E044B0071E78D /* Debug configuration for PBXNativeTarget "hot-coals" */,
+				F46E7D7D306E044B0071E78D /* Release configuration for PBXNativeTarget "hot-coals" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		F46E7D7E306E044B0071E78D /* Build configuration list for PBXNativeTarget "hot-coalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46E7D7F306E044B0071E78D /* Debug configuration for PBXNativeTarget "hot-coalsTests" */,
+				F46E7D80306E044B0071E78D /* Release configuration for PBXNativeTarget "hot-coalsTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		F46E7D81306E044B0071E78D /* Build configuration list for PBXNativeTarget "hot-coalsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46E7D82306E044B0071E78D /* Debug configuration for PBXNativeTarget "hot-coalsUITests" */,
+				F46E7D83306E044B0071E78D /* Release configuration for PBXNativeTarget "hot-coalsUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F46E7D54306E04490071E78D /* Project object */;
+	validationLevel = 1;
+}
